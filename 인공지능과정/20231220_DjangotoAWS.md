@@ -15,4 +15,5 @@ mv ~/Downloads/deploy_test.pem ~/.ssh/ 여기서 mv는 맥용 move로 바꿔야 
 
 - cat -> type
 - is -> dir
-- chmod는 윈도우에는 없음.
+- chmod는 윈도우에는 없음. https://benfatto.tistory.com/54
+- 
