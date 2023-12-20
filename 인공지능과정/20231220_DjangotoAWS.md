@@ -1,13 +1,18 @@
-1. AWS 서버에 ubunto로 가상환경 생성
-2. 같은 이름으로 로컬에서 가상환경 생성
+##### 참고한 인터넷
+AWS에서버 띄우기 
+https://nerogarret.tistory.com/m/45
 
-       cmd에서 가상 환경만들 디렉토리에 들어가서 아래와 같은 코드 실행
-       1. mkdir venv
-       2. cd venv(venv폴더로 이동)
-       3. python -venv [AWS에서 만든 가상환경 이름과 같은 이름]
-3. pyenv 설치를 위한 종속성 설치시 문법이 다르다고  할때,
+맥과 윈도우의 명령어 차이
+https://bbaek-gwi-story.tistory.com/17
 
-       1. cmd에서 wsl -d Ubuntu 입력 한 후 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev 입력
-            근데 성공못함
-       2. windowshell(관리자로 실)에서 choco install make build-essential libssl-dev zlib1g-dev 실행
-4. 
+mkdir ~/.ssh/ 이거는 맥용이라 ~를 %USERPROFILE%로 바꿔야 함.
+
+              %USERPROFILE% 찾는 방법
+              -> echo %USERPROFILE%
+
+mv ~/Downloads/deploy_test.pem ~/.ssh/ 여기서 mv는 맥용 move로 바꿔야 함.
+![image](https://github.com/21dbwls12/TIL/assets/139525941/9ff96317-8614-415d-8702-44f75dc628a8)
+
+- cat -> type
+- is -> dir
+- chmod는 윈도우에는 없음.
