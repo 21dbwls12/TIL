@@ -11,3 +11,7 @@ fun main(args: Array<String>) {
 val s1 = readln().split("")
 이렇게 했는데 이거는 맨앞과 맨뒤에 공백을 추가하기 때문에 결과값이 다르다고 함
 """
+
+"""
+.toCharArray() 없어도 됨.. 굳이 필요없는 부분이었음...
+"""
