@@ -25,4 +25,8 @@ import kotlin.math.max
 class Solution {
     fun solution(a: Int, b: Int) = max("$a$b".toInt(), "$b$a".toInt())
 }
+
+처음 주어진 answer가
+var answer: Int = 0
+이어서 string값으로 변환하지 않고 로직을 작성하고 싶었음. 방법을 찾지 못함.
 """
