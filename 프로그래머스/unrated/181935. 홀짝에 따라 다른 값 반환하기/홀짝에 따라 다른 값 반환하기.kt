@@ -3,20 +3,12 @@ class Solution {
         var answer: Int = 0
         
         if(n % 2 != 0) {
-            for (e in 1 .. n) {
-                if(e % 2 != 0) {
-                    answer += e
-                } else {
-                    continue
-                }
+            for (e in 1 .. n step 2) {
+                answer += e
             } 
         } else {
-            for (e in 1 .. n) {
-                if(e % 2 == 0) {
-                    answer += e * e
-                } else {
-                    continue
-                }
+            for (e in 2 .. n step 2) {
+                answer += e * e
             }
         }
         
