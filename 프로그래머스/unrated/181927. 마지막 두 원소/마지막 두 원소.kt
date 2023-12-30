@@ -30,5 +30,7 @@ class Solution {
 }
 
 찾아보니 take 종류가 다양함
+take(), takeLast(), takeWhile, takeLastWhile, takeIf
+뒤의 세개는 람다식
 https://kotlinworld.com/12
 """
