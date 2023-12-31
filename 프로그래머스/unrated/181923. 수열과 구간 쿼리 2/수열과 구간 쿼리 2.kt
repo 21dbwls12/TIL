@@ -15,3 +15,8 @@ class Solution {
         return answer
     }
 }
+
+"""
+역시 내장함수(filter, slice)를 사용하니깐 처리시간이 늘어남
+22~50ms사이를 왔다갔다함
+"""
