@@ -14,3 +14,9 @@ class Solution {
         return answer
     }
 }
+
+// 다른 사람 풀이
+// startsWith, endsWith => 특정 문자로 시작, 종료하는지 확인하는 내장 함수
+class Solution {
+    fun solution(myString: String, isSuffix: String) = if (myString.endsWith(isSuffix)) 1 else 0
+}
