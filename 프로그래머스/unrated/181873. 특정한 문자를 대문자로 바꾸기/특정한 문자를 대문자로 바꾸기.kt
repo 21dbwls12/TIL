@@ -12,3 +12,6 @@ class Solution {
         return answer
     }
 }
+
+// 그냥 replace사용해도 됨...
+// .replace(alp, alp.uppercase())
