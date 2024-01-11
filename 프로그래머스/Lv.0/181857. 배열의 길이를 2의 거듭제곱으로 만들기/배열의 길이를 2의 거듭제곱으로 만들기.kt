@@ -18,3 +18,5 @@ class Solution {
         return answer
     }
 }
+
+// pow()안쓰고 초기값을 1로 하고 2를 계속 곱해도 되는 거였음.. 7점 받았으니 뭐..  
