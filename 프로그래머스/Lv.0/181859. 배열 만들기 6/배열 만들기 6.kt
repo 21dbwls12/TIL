@@ -2,7 +2,7 @@ import java.util.Stack
 
 class Solution {
     fun solution(arr: IntArray): IntArray {
-        var answer = Stack<Int>()
+        val answer = Stack<Int>()
         var i = 0
         
         while (i < arr.size) {
