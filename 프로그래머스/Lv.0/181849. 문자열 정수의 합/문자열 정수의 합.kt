@@ -8,3 +8,5 @@ class Solution {
         return answer
     }
 }
+
+// 내장함수는 sumOf {}사용하면 되는 듯
