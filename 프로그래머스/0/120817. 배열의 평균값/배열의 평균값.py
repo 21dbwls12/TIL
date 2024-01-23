@@ -1,6 +1,7 @@
 import numpy as np
 
 def solution(numbers):
+    # mean()도 똑같이 작동
     answer = np.average(numbers)
     
     # 2번
