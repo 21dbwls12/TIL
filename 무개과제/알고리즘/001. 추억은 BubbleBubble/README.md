@@ -1,4 +1,4 @@
-# [Bronze V] 개수 세기 - 10807 
+# 추억은 BubbleBubble 
 
 
 ### 성능 요약
