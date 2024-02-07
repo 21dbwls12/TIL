@@ -23,15 +23,24 @@
 
 ### 개념
 
-#### 데이터 구조
-
-[참고 사이트](https://medium.com/karuna-sehgal/a-simplifed-expanation-about-data-structures-ddaddd209737)
-- Array(배열)
-- Hash Table(해시 테이블)
-- Linked List
-- Graph(그래프)
-- Tree
-- Queue
-- Stack
-
 #### Bubble Sort
+
+ <p>작동 원리</p>  
+
+ 1. 정렬되지 않은 배열에서 인덱스 0번, (size - 1)번, (size x 1/2)번을 피봇(pivot, 기준점)으로 선정
+ 2. 기준과 반대편(가운데 인덱스이면 0번 혹은 (size - 1번)부터 값과 피봇값을 비교)
+ 3. 만약 배열순으로 피봇값과 순서가 왼쪽에 있어야하면 왼쪽으로, 오른쪽과 있어야한면 오른쪽으로 교차
+ 4. 다시 0번부터 위의 1~3을 반복, 범위는 마지막 인덱스 - 1까지
+ 5. 범위를 계속 1씩 줄여나가며 0이 될 때까지 정렬
+
+![image](https://github.com/21dbwls12/TIL/assets/139525941/16f46454-2eb1-486c-ae2d-62bbae0d2e26)
+![image](https://github.com/21dbwls12/TIL/assets/139525941/b3c01170-570b-435f-aa3f-89a06838befa)
+![image](https://github.com/21dbwls12/TIL/assets/139525941/9c761e7e-2e5e-487c-9e46-ae70c02d2268)
+
+<p>특징</p>
+
+- 큰 값이 항상 먼저 정렬
+- 이미 정렬되어있는 지 확인하는 것은 한 번의 반복만 필요
+- 최선의 시간 복잡도는 O(n), 평균 및 최악의 시간 복잡도는 O(logN)
+- 공간 복잡도는 O(1)
+
