@@ -35,6 +35,7 @@ fun findingSecond(): Int? {
     for (n in input) {
         when {
             first == null || first < n -> first = n
+            // (n < first && n > second)
             second == null || (n in (second + 1)..<first) -> second = n
         }
     }
