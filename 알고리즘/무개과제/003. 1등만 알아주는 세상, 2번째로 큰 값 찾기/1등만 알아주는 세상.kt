@@ -35,7 +35,10 @@ fun findingSecond(): Int? {
     for (n in input) {
         when {
             first == null || first < n -> first = n
-            // (n < first && n > second)
+            // 메모리: 2192 KB, 시간: 2202 ms
+            second == null || (n < first && n > second) -> second = n
+            // 메모리: 2192 KB, 시간: 14951 ms
+            // 범위로 하면 훨씬 오래걸림!!
             second == null || (n in (second + 1)..<first) -> second = n
         }
     }
