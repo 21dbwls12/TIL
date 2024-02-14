@@ -39,6 +39,8 @@ fun findingSecond(): Int? {
             second == null || (n < first && n > second) -> second = n
             // 메모리: 2192 KB, 시간: 14951 ms
             // 범위로 하면 훨씬 오래걸림!!
+            // 반복문이 돌 때마다 범위를 계속 생성해서 그런듯?!
+            // 반복문 안에 넣는 거는 비효율적인 것 같음. 표현 자체는 자주 사용하는 표현이라고 하셨음.(알고리즘 문제니깐 복잡도 더 신경쓰라고 하셨음.)
             second == null || (n in (second + 1)..<first) -> second = n
         }
     }
