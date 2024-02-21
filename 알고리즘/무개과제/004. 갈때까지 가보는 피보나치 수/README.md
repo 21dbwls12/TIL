@@ -58,4 +58,4 @@
  - 이런 단점을 극복하기 위한 방법에는 잔환부에 연산이 없게 구현하는 꼬리 재귀(tail call recursion)가 있음
 
 
-### [수학 수식 참고](https://khw11044.github.io/blog/blog-etc/2020-12-21-markdown-tutorial2/#jekyllgithub-blog%EC%97%90%EC%84%9C-latex-%EC%A0%81%EC%9A%A9)
+### [마크다운 수학 수식 작성 참고](https://khw11044.github.io/blog/blog-etc/2020-12-21-markdown-tutorial2/#jekyllgithub-blog%EC%97%90%EC%84%9C-latex-%EC%A0%81%EC%9A%A9)
