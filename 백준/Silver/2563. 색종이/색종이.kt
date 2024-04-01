@@ -2,7 +2,7 @@ fun main() {
     val dot = mutableListOf<List<Int>>()
     val paper = readln().toInt()
 
-    repeat(paper) {
+    for(n in 1 .. paper) {
         val (x, y) = readln().split(" ").map { it.toInt() }
 
         for (i in x .. x + 9) {
