@@ -1,5 +1,5 @@
 fun main() {
-    val dot = mutableListOf<List<Int>>()
+    val dot = mutableSetOf<List<Int>>()
     val paper = readln().toInt()
 
     for(n in 1 .. paper) {
