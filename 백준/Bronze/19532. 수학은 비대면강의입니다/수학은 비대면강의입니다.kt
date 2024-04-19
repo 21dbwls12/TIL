@@ -69,6 +69,7 @@ fun equation1(list: List<Double>, n: Double): Double {
 }
 
 // 방법 2 (직접 대입 하는 방법)
+// 메모리: 22004 KB, 시간: 220 ms
 fun main() {
     val (equationA, equationB) = readln().split(" ").map { it.toDouble() }.chunked(3)
     var x = 0
