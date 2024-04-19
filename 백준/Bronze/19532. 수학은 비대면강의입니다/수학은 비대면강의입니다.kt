@@ -1,3 +1,4 @@
+// 방법 1
 import kotlin.math.round
 
 fun main() {
@@ -65,4 +66,22 @@ fun equation1(list: List<Double>, n: Double): Double {
     } else {
         (list[2] - (list[1] * n)) / list[0]
     }
+}
+
+// 방법 2 (직접 대입 하는 방법)
+fun main() {
+    val (equationA, equationB) = readln().split(" ").map { it.toDouble() }.chunked(3)
+    var x = 0
+    var y = 0
+
+    for (tempX in -999 .. 999) {
+        for (tempY in -999 .. 999) {
+            if ((equationA[0] * tempX) + (equationA[1] * tempY) == equationA[2] && (equationB[0] * tempX) + (equationB[1] * tempY) == equationB[2]){
+                x = tempX
+                y = tempY
+                break
+            }
+        }
+    }
+    print("$x $y")
 }
