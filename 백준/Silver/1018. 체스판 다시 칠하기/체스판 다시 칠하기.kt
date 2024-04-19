@@ -15,7 +15,6 @@ fun main() {
         for (c in 0 .. n - 8) {
             var whitePaint = true
             var blackPaint = false
-            var count = 0
             var blackCount = 0
             var whiteCount = 0
 
