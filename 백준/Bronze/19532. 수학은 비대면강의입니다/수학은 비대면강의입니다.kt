@@ -94,6 +94,8 @@ fun main() {
 // 근데 compile했을 때 if (!equationA.contains(0.0) || !equationB.contains(0.0))문 안으로 들어감..
 // if (equationA.contains(0.0) || equationB.contains(0.0))으로 바꾸고 순서만 바꿨는데 제대로 작동이 됨..
 // ????
+// 이해함! 이해한 내용은 하단에
+// 이해하고 나니... 스스로가 너무 한심하다.. 왜 저게 생각이 안난걸까...
 fun main() {
     val (listA, listB) = readln().split(" ").map { it.toDouble() }.chunked(3)
     val equationA = listA.toMutableList()
@@ -105,6 +107,10 @@ fun main() {
     var x = 0.0
     var y = 0.0
 
+    // or == 조건이 하나라도 true면 true 반환
+    // 전자 조건은 false, 후자 조건이 true
+    // 그래서 if 조건이 true가 되면서 만족함
+    // 그래서 else문으로 들어가지 않고 if문으로 들어가서 실행됨!!
     if (!equationA.contains(0.0) || !equationB.contains(0.0)) {
         println(1)
         equationA.forEachIndexed { i, _ ->
