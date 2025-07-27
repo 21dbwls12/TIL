@@ -2,8 +2,15 @@
 
 참고  
 https://velog.io/@weed_940322/Mac-VSCode-Unity-%EC%97%B0%EB%8F%99
+https://ko-ko-song.tistory.com/56
+
+<br>
+
+-----------------
 
 Unity에서 Window - Package Management - Package Manager - Unity Registry - *Visual* 검색 - Visual Scripting, Visual Studio Editor 설치
+
+-----------------
 
 <br>
 
@@ -61,7 +68,9 @@ Unity에서 Window - Package Management - Package Manager - Unity Registry - *Vi
   - *제거* 옆 화살표 클릭 -> 특정 버전 설치
   - .net 다운로드 사이트-> 모든 .NET 다운로드 -> 다운로드 -> 모든 .NET 9.0 다운로드 -> 언어 지원 버전 확인  
     <img width="531" height="608" alt="스크린샷 2025-07-26 오후 9 55 43" src="https://github.com/user-attachments/assets/c893e6d6-97d3-49d9-a6ab-65bc6309c8f1" />
-    - 2025.7.26 현재 .NET 9.0 설치 후 C# 2.13.10 설치
+    - 2025.7.26 현재 .NET 9.0 설치 후 C# 1.25.4 설치
+    - VScode 하단에 불 아이콘이 떠야함.  
+      <img width="352" height="70" alt="스크린샷 2025-07-27 오후 3 11 23" src="https://github.com/user-attachments/assets/39682592-9e00-4f62-9ce4-31b9893d86c6" />
 
 - Unity
 - Unity Tools
