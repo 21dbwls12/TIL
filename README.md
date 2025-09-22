@@ -13,7 +13,9 @@
 25.07.26 ~ 
 
     7.26~ -> 석윤경. (2023). 『(유니티를 배우는 가장 완벽한 기초)유니티 게임 프로그래밍』. 루비페이퍼
-             https://github.com/21dbwls12/ShootingGame
+
+
+ [유니티 게임 프로그래밍 예제 따라하기](https://github.com/21dbwls12/ShootingGame)
 
 ------
 
