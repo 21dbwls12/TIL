@@ -16,9 +16,14 @@
     12.09~ -> 아라카와 다쿠야, 아사노 유이치. (2023). 『초보자를 위한 유니티 입문 실습하며 정복하는 2D & 3D 게임 개발 기초』. 윤준(역). 한빛미디어
 
 
- [이토록 쉬운 유니티 게임 프로그래밍 예제 따라하기](https://github.com/21dbwls12/ShootingGame)
+ |[이토록 쉬운 유니티 게임 프로그래밍 예제 따라하기](https://github.com/21dbwls12/ShootingGame)|
+ |:---:|:---:|:---:|
  
  [초보자를 위한 유니티 입문 첫번째 예제 따라하기](https://github.com/21dbwls12/RollingBall)
+
+||이토록 쉬운 유니티 게임 프로그래밍 예제|초보자를 위한 유니티 입문||
+|:---:|:---:|:---:|:---:
+1|[슈팅게임](https://github.com/21dbwls12/ShootingGame)|[공굴리기](https://github.com/21dbwls12/RollingBall)||
  
 ------
 
