@@ -1,5 +1,7 @@
 [참고 사이트](https://gymdev.tistory.com/92)
 
+--------------------------------------------
+
 ## 터미널 사용해서 다운로드
 
 1. `% brew upgrade`
@@ -46,5 +48,36 @@
 
 <img width="476" height="101" alt="스크린샷 2026-03-09 오후 8 21 20" src="https://github.com/user-attachments/assets/c1c8c400-0cef-413c-91ed-10fb42da22c6" />
 
+## 비밀번호 설정
+
+1. `select host, user, password from user;`
+
+<img width="386" height="17" alt="스크린샷 2026-03-09 오후 9 49 59" src="https://github.com/user-attachments/assets/1b0ce7fa-3d19-43ca-a0a4-d8ef3dbdc91f" />
+<br>
+<img width="155" height="19" alt="스크린샷 2026-03-09 오후 9 50 23" src="https://github.com/user-attachments/assets/edd97355-0a20-4ce3-9d28-3501d7807e55" />
+
+  invalid로 되어있는 것 확인
+
+2. 비밀번호 변경
+
+```
+set password for 'root'@'localhost'=password('{변경할 비밀번호}');
+# 변경한 내용 변경
+flush privileges;
+```
+
+3. 다시 확인
+
+`select host, user, password from user;`
+
+<img width="211" height="21" alt="스크린샷 2026-03-09 오후 10 02 45" src="https://github.com/user-attachments/assets/cf77ca97-2207-476a-b3d3-d31885b52bbf" />
+
+비밀번호가 암호화되어 설정된 것 확인
+
+## 종료
+
+`\q`
+
+<img width="151" height="33" alt="스크린샷 2026-03-09 오후 10 03 59" src="https://github.com/user-attachments/assets/27df55e7-5c3c-4604-a1fd-614ca9d9caea" />
 
 
