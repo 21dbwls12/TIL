@@ -81,3 +81,25 @@ flush privileges;
 <img width="151" height="33" alt="스크린샷 2026-03-09 오후 10 03 59" src="https://github.com/user-attachments/assets/27df55e7-5c3c-4604-a1fd-614ca9d9caea" />
 
 
+## 명령어
+
+```
+# MariaDB 서버 실행
+brew services start mariadb
+ 
+# MariaDB 서버 중지
+brew services stop mariadb
+ 
+# MariaDB 서버 재시작
+brew services restart mariadb
+ 
+# MariaDB 서버 실행 확인
+brew services list
+
+# 홈브류 업데이트
+brew upgrade
+ 
+# MariaDB Server 업데이트
+brew upgrade mariadb
+```
+
